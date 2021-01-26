@@ -6,10 +6,6 @@
   word-wrap: break-word;
 }
 
-.item1, .item2, .item3, .item4 {
-  max-width: 600px;
-}
-
 .item1 {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
