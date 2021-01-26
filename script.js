@@ -1,11 +1,18 @@
+let dateHolder = Date();
+
 function function1() {
-    if (document.getElementById('target').innerHTML != Date())
+    if (document.getElementById('target1').innerHTML != dateHolder)
     {
-        document.getElementById('target').innerHTML = Date()
+        document.getElementById('target1').innerHTML = dateHolder;
     }
     else{
-        document.getElementById('target').innerHTML = "skinnamarinkidinkydink"
+        document.getElementById('target1').innerHTML = "Date has changed.";
     }
+}
+
+function changeDate() {
+    dateHolder = Date();
+    document.getElementById('target2').innerHTML = dateHolder;
 }
 
 
