@@ -1,0 +1,13 @@
+.changer {
+    padding: 5px 10px;
+}
+
+.container {
+    display: grid;
+    height: 50vh;
+    
+
+    grid-template-areas: 
+    "area1 area2
+     area3 area4";
+}
