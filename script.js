@@ -21,7 +21,7 @@ function changeDate() {
 
 // for button 3
 function dateLength() {
-    document.getElementById('target3').innerHTML = x;
+    document.getElementById('target3').innerHTML = x - (Math.floor(Math.random() * x));
 }
 
 function clickCount() {
